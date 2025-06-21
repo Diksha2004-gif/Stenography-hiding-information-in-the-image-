@@ -73,4 +73,7 @@ def main():
     elif choice == '2':
         print("Decoded Word: " + decode())
     else:
-        print("Invalid 
+        print("Invalid choice, exiting.")
+
+        if __name__=="__main__":
+        main()
